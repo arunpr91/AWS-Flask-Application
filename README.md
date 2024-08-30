@@ -11,18 +11,6 @@ Step 2: Prepare Flask Application
 
 Create a simple Flask application locally. For example, create a file application.py with the following content:
 
-python
-
-from flask import Flask
-
-app = Flask(__name__)
-
-@app.route('/')
-def hello_world():
-    return 'Hello, AWS Elastic Beanstalk!'
-
-if __name__ == '__main__':
-    app.run(debug=True)
 Make sure you have the necessary files for your app, including a requirements.txt for Python dependencies:
 
 bash
